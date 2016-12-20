@@ -22,11 +22,11 @@ Import pre-reqs
 ```
 >>>>import sys
 ```
-Set Ambari domain to the IP address of your Ambari node, or qualified node name. Below IP address is an example.
+Set Ambari domain variable to the IP address or FQDN of your Ambari node.
 ```
 >>>AMBARI_DOMAIN = '127.0.0.1'
 ```
-Set Ambari port, Ambari user and password. Below are just examples. 
+Set Ambari port, Ambari user and password variables to match your specifics. 
 ```
 >>>AMBARI_PORT = '8080'
 ```
@@ -36,11 +36,11 @@ Set Ambari port, Ambari user and password. Below are just examples.
 ```
 >>>AMBARI_USER_PW = 'admin'
 ```
-Set the following to the IP address of your ResourceManager node, or qualified node name. Below IP address is an example.
+Set the following variable to the IP address or FQDN of your ResourceManager node.
 ```
 >>>RM_DOMAIN = '127.0.0.1'
 ```
-Set Resource Manager port variable to the actual port used:
+Set Resource Manager port variable
 ```
 >>>RM_PORT = '8088'
 ```
@@ -87,7 +87,7 @@ Let's find Cluster Name, Cluster Version, Stack and Stack Version:
 ```
 >>>print(CLUSTER_INFO)
 ```
-Let's find stack repository:
+Let's find HDP stack repository:
 ```
 >>>restAPI = "/api/v1/stacks/"+STACK+"/versions/"+STACK_VERSION+"/operating_systems/redhat7/repositories/"+CLUSTER_VERSION
 ```
