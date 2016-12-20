@@ -2,7 +2,7 @@
 
 Download and install pip
 ```
-wget https://bootstrap.pypa.io/get-pip.py
+#wget https://bootstrap.pypa.io/get-pip.py
 ```
 Install add-on package
 ```
