@@ -12,7 +12,7 @@ Start Python CLI (default version)
 ```
 #python
 ```
-Import a few libraries
+Import pre-reqs
 ```
 >>>>import requests
 ```
