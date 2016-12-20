@@ -1,6 +1,6 @@
 #Ambari and Resource Manager REST API with Python
 
-Download pip if not already in your system
+Download pip (skip stepif pip already exists on your system)
 ```
 wget https://bootstrap.pypa.io/get-pip.py
 ```
@@ -8,7 +8,7 @@ Install add-on package
 ```
 #pip install requests
 ```
-Start Python - default version
+Start Python CLI (default version)
 ```
 #python
 ```
