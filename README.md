@@ -110,3 +110,11 @@ Let's find HDP stack repository:
 >>> print(REPOSITORY_NAME)
 ```
 A more elegant approach is to create utility functions. See restAPIFunctions.py script.
+For example, CLUSTER_VERSION and CLUSTER_NAME can be found using getClusterVersionAndName() function:
+```
+>>>>CLUSTER_NAME,CLUSTER_VERSION,CLUSTER_INFO = getClusterVersionAndName()
+>>>>print(CLUSTER_NAME)
+>>>>print(CLUSTER_VERSION)
+>>>>print(CLUSTER_INFO)
+```
+```
